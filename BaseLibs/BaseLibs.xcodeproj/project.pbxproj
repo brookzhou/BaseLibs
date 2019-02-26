@@ -16,6 +16,10 @@
 		BC0B12012225ABAA007D17DD /* DeviceConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B11F622259C3B007D17DD /* DeviceConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC0B12022225ABAA007D17DD /* SystemConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B11F722259C7B007D17DD /* SystemConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC0B12032225ABAA007D17DD /* DateConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B11F822259CB4007D17DD /* DateConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B12092225C42E007D17DD /* SystemWifiManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B12052225C42D007D17DD /* SystemWifiManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B120A2225C42E007D17DD /* SystemWifiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B12062225C42D007D17DD /* SystemWifiManager.m */; };
+		BC0B120B2225C42E007D17DD /* DocumentDirectoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B12072225C42D007D17DD /* DocumentDirectoryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B120C2225C42E007D17DD /* DocumentDirectoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B12082225C42D007D17DD /* DocumentDirectoryManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		BC0B11F822259CB4007D17DD /* DateConfigs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateConfigs.h; sourceTree = "<group>"; };
 		BC0B11FA2225A141007D17DD /* BaseStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStyle.h; sourceTree = "<group>"; };
 		BC0B11FB2225A141007D17DD /* BaseStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStyle.m; sourceTree = "<group>"; };
+		BC0B12052225C42D007D17DD /* SystemWifiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemWifiManager.h; sourceTree = "<group>"; };
+		BC0B12062225C42D007D17DD /* SystemWifiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemWifiManager.m; sourceTree = "<group>"; };
+		BC0B12072225C42D007D17DD /* DocumentDirectoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentDirectoryManager.h; sourceTree = "<group>"; };
+		BC0B12082225C42D007D17DD /* DocumentDirectoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentDirectoryManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 		BC0B11E9222590F7007D17DD /* BaseLibs */ = {
 			isa = PBXGroup;
 			children = (
+				BC0B12042225C3D3007D17DD /* System */,
 				BC0B11F92225A140007D17DD /* UIStyle */,
 				BC0B11F222259317007D17DD /* Macro */,
 				BC0B11EA222590F7007D17DD /* BaseLibs.h */,
@@ -92,6 +101,17 @@
 			path = UIStyle;
 			sourceTree = "<group>";
 		};
+		BC0B12042225C3D3007D17DD /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B12072225C42D007D17DD /* DocumentDirectoryManager.h */,
+				BC0B12082225C42D007D17DD /* DocumentDirectoryManager.m */,
+				BC0B12052225C42D007D17DD /* SystemWifiManager.h */,
+				BC0B12062225C42D007D17DD /* SystemWifiManager.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -105,6 +125,8 @@
 				BC0B12002225ABAA007D17DD /* ColorConfigs.h in Headers */,
 				BC0B12012225ABAA007D17DD /* DeviceConfigs.h in Headers */,
 				BC0B12022225ABAA007D17DD /* SystemConfigs.h in Headers */,
+				BC0B12092225C42E007D17DD /* SystemWifiManager.h in Headers */,
+				BC0B120B2225C42E007D17DD /* DocumentDirectoryManager.h in Headers */,
 				BC0B12032225ABAA007D17DD /* DateConfigs.h in Headers */,
 				BC0B11FC2225A141007D17DD /* BaseStyle.h in Headers */,
 			);
@@ -177,7 +199,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0B120C2225C42E007D17DD /* DocumentDirectoryManager.m in Sources */,
 				BC0B11FD2225A141007D17DD /* BaseStyle.m in Sources */,
+				BC0B120A2225C42E007D17DD /* SystemWifiManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

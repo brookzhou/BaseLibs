@@ -22,6 +22,8 @@ FOUNDATION_EXPORT const unsigned char BaseLibsVersionString[];
 #import "DeviceConfigs.h"
 #import "ColorConfigs.h"
 #import "LanguageConfigs.h"
+#import "DocumentDirectoryManager.h"
+#import "SystemWifiManager.h"
 
 
 
