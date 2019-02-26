@@ -8,12 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		BC0B11EC222590F7007D17DD /* BaseLibs.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B11EA222590F7007D17DD /* BaseLibs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B11FC2225A141007D17DD /* BaseStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B11FA2225A141007D17DD /* BaseStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B11FD2225A141007D17DD /* BaseStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B11FB2225A141007D17DD /* BaseStyle.m */; };
+		BC0B11FE2225ABAA007D17DD /* BaseMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B11F3222593B4007D17DD /* BaseMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B11FF2225ABAA007D17DD /* LanguageConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B11F422259B3A007D17DD /* LanguageConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B12002225ABAA007D17DD /* ColorConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B11F522259B6F007D17DD /* ColorConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B12012225ABAA007D17DD /* DeviceConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B11F622259C3B007D17DD /* DeviceConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B12022225ABAA007D17DD /* SystemConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B11F722259C7B007D17DD /* SystemConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0B12032225ABAA007D17DD /* DateConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B11F822259CB4007D17DD /* DateConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC0B11E7222590F7007D17DD /* BaseLibs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseLibs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0B11EA222590F7007D17DD /* BaseLibs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseLibs.h; sourceTree = "<group>"; };
 		BC0B11EB222590F7007D17DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0B11F3222593B4007D17DD /* BaseMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseMacro.h; sourceTree = "<group>"; };
+		BC0B11F422259B3A007D17DD /* LanguageConfigs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageConfigs.h; sourceTree = "<group>"; };
+		BC0B11F522259B6F007D17DD /* ColorConfigs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorConfigs.h; sourceTree = "<group>"; };
+		BC0B11F622259C3B007D17DD /* DeviceConfigs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceConfigs.h; sourceTree = "<group>"; };
+		BC0B11F722259C7B007D17DD /* SystemConfigs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemConfigs.h; sourceTree = "<group>"; };
+		BC0B11F822259CB4007D17DD /* DateConfigs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateConfigs.h; sourceTree = "<group>"; };
+		BC0B11FA2225A141007D17DD /* BaseStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStyle.h; sourceTree = "<group>"; };
+		BC0B11FB2225A141007D17DD /* BaseStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStyle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +62,34 @@
 		BC0B11E9222590F7007D17DD /* BaseLibs */ = {
 			isa = PBXGroup;
 			children = (
+				BC0B11F92225A140007D17DD /* UIStyle */,
+				BC0B11F222259317007D17DD /* Macro */,
 				BC0B11EA222590F7007D17DD /* BaseLibs.h */,
 				BC0B11EB222590F7007D17DD /* Info.plist */,
 			);
 			path = BaseLibs;
+			sourceTree = "<group>";
+		};
+		BC0B11F222259317007D17DD /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B11F3222593B4007D17DD /* BaseMacro.h */,
+				BC0B11F422259B3A007D17DD /* LanguageConfigs.h */,
+				BC0B11F522259B6F007D17DD /* ColorConfigs.h */,
+				BC0B11F622259C3B007D17DD /* DeviceConfigs.h */,
+				BC0B11F722259C7B007D17DD /* SystemConfigs.h */,
+				BC0B11F822259CB4007D17DD /* DateConfigs.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		BC0B11F92225A140007D17DD /* UIStyle */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B11FA2225A141007D17DD /* BaseStyle.h */,
+				BC0B11FB2225A141007D17DD /* BaseStyle.m */,
+			);
+			path = UIStyle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +100,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC0B11EC222590F7007D17DD /* BaseLibs.h in Headers */,
+				BC0B11FE2225ABAA007D17DD /* BaseMacro.h in Headers */,
+				BC0B11FF2225ABAA007D17DD /* LanguageConfigs.h in Headers */,
+				BC0B12002225ABAA007D17DD /* ColorConfigs.h in Headers */,
+				BC0B12012225ABAA007D17DD /* DeviceConfigs.h in Headers */,
+				BC0B12022225ABAA007D17DD /* SystemConfigs.h in Headers */,
+				BC0B12032225ABAA007D17DD /* DateConfigs.h in Headers */,
+				BC0B11FC2225A141007D17DD /* BaseStyle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0B11FD2225A141007D17DD /* BaseStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

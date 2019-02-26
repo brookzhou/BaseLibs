@@ -15,5 +15,13 @@ FOUNDATION_EXPORT double BaseLibsVersionNumber;
 FOUNDATION_EXPORT const unsigned char BaseLibsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BaseLibs/PublicHeader.h>
+#import "BaseMacro.h"
+#import "BaseStyle.h"
+#import "DateConfigs.h"
+#import "SystemConfigs.h"
+#import "DeviceConfigs.h"
+#import "ColorConfigs.h"
+#import "LanguageConfigs.h"
+
 
 
