@@ -1,4 +1,4 @@
-@version = "1.0.1"
+@version = "1.0.2"
 Pod::Spec.new do |s|
 s.name = "BaseLibs"
 s.version = @version
@@ -13,24 +13,23 @@ s.source_files = "BaseLibs/BaseLibs/*.{h,m}"
 s.requires_arc = true
 s.framework = "UIKit"
 
-EOS
+    s.subspec 'UIStyle' do |ss|
+        ss.source_files = "BaseLibs/BaseLibs/UIStyle/*.{h,m}"
+    
+    end
+    s.subspec 'Macro' do |ss|
+        ss.source_files = "BaseLibs/BaseLibs/Macro/*.{h,m}"
+    end
+    s.subspec 'System' do |ss|
+        ss.source_files = "BaseLibs/BaseLibs/System/*.{h,m}"
+        ss.frameworks = 'Foundation',"SystemConfiguration"
+    end
+    s.subspec 'ViewControllers' do |ss|
+        ss.source_files = "BaseLibs/BaseLibs/ViewControllers/*.{h,m}"
 
-s.subspec 'UIStyle' do |ss|
-    ss.source_files = "BaseLibs/BaseLibs/UIStyle/*.{h,m}"
-    ss.frameworks = 'UIKit'
-end
-s.subspec 'Macro' do |ss|
-    ss.source_files = "BaseLibs/BaseLibs/Macro/*.{h,m}"
-end
-s.subspec 'System' do |ss|
-    ss.source_files = "BaseLibs/BaseLibs/System/*.{h,m}"
-    ss.frameworks = 'Foundation',"SystemConfiguration"
-end
-s.subspec 'ViewControllers' do |ss|
-    ss.source_files = "BaseLibs/BaseLibs/ViewControllers/*.{h,m}"
-    ss.frameworks = "UIKit"
-end
-s.subspec 'Views' do |ss|
-    ss.source_files = "BaseLibs/BaseLibs/Views/*.{h,m}"
-    ss.frameworks = "UIKit"
+    end
+    s.subspec 'Views' do |ss|
+        ss.source_files = "BaseLibs/BaseLibs/Views/*.{h,m}"
+    end
+    
 end
