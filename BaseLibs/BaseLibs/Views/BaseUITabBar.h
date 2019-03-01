@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseUITabBar : UITabBar
 
+@property (nonatomic, strong) UIImage *centerImage;
+@property (nonatomic, strong) UIButton *centerBtn;
+
 @end
 
 NS_ASSUME_NONNULL_END
