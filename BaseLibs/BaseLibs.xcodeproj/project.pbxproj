@@ -20,6 +20,12 @@
 		BC0B120A2225C42E007D17DD /* SystemWifiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B12062225C42D007D17DD /* SystemWifiManager.m */; };
 		BC0B120B2225C42E007D17DD /* DocumentDirectoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B12072225C42D007D17DD /* DocumentDirectoryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC0B120C2225C42E007D17DD /* DocumentDirectoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B12082225C42D007D17DD /* DocumentDirectoryManager.m */; };
+		BC0B1219222905DC007D17DD /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B1217222905DC007D17DD /* BaseViewController.h */; };
+		BC0B121A222905DC007D17DD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B1218222905DC007D17DD /* BaseViewController.m */; };
+		BC0B121D222906B0007D17DD /* BaseUITabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B121B222906B0007D17DD /* BaseUITabBarController.h */; };
+		BC0B121E222906B0007D17DD /* BaseUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B121C222906B0007D17DD /* BaseUITabBarController.m */; };
+		BC0B1222222906F4007D17DD /* BaseUITabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B1220222906F4007D17DD /* BaseUITabBar.h */; };
+		BC0B1223222906F4007D17DD /* BaseUITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B1221222906F4007D17DD /* BaseUITabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,12 @@
 		BC0B12062225C42D007D17DD /* SystemWifiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemWifiManager.m; sourceTree = "<group>"; };
 		BC0B12072225C42D007D17DD /* DocumentDirectoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentDirectoryManager.h; sourceTree = "<group>"; };
 		BC0B12082225C42D007D17DD /* DocumentDirectoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentDirectoryManager.m; sourceTree = "<group>"; };
+		BC0B1217222905DC007D17DD /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BC0B1218222905DC007D17DD /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BC0B121B222906B0007D17DD /* BaseUITabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseUITabBarController.h; sourceTree = "<group>"; };
+		BC0B121C222906B0007D17DD /* BaseUITabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseUITabBarController.m; sourceTree = "<group>"; };
+		BC0B1220222906F4007D17DD /* BaseUITabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseUITabBar.h; sourceTree = "<group>"; };
+		BC0B1221222906F4007D17DD /* BaseUITabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseUITabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,8 @@
 		BC0B11E9222590F7007D17DD /* BaseLibs */ = {
 			isa = PBXGroup;
 			children = (
+				BC0B121F222906CE007D17DD /* Views */,
+				BC0B121622290591007D17DD /* ViewControllers */,
 				BC0B12042225C3D3007D17DD /* System */,
 				BC0B11F92225A140007D17DD /* UIStyle */,
 				BC0B11F222259317007D17DD /* Macro */,
@@ -112,6 +126,26 @@
 			path = System;
 			sourceTree = "<group>";
 		};
+		BC0B121622290591007D17DD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B1217222905DC007D17DD /* BaseViewController.h */,
+				BC0B1218222905DC007D17DD /* BaseViewController.m */,
+				BC0B121B222906B0007D17DD /* BaseUITabBarController.h */,
+				BC0B121C222906B0007D17DD /* BaseUITabBarController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BC0B121F222906CE007D17DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC0B1220222906F4007D17DD /* BaseUITabBar.h */,
+				BC0B1221222906F4007D17DD /* BaseUITabBar.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -120,8 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC0B11EC222590F7007D17DD /* BaseLibs.h in Headers */,
+				BC0B1222222906F4007D17DD /* BaseUITabBar.h in Headers */,
 				BC0B11FE2225ABAA007D17DD /* BaseMacro.h in Headers */,
 				BC0B11FF2225ABAA007D17DD /* LanguageConfigs.h in Headers */,
+				BC0B121D222906B0007D17DD /* BaseUITabBarController.h in Headers */,
+				BC0B1219222905DC007D17DD /* BaseViewController.h in Headers */,
 				BC0B12002225ABAA007D17DD /* ColorConfigs.h in Headers */,
 				BC0B12012225ABAA007D17DD /* DeviceConfigs.h in Headers */,
 				BC0B12022225ABAA007D17DD /* SystemConfigs.h in Headers */,
@@ -200,7 +237,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC0B120C2225C42E007D17DD /* DocumentDirectoryManager.m in Sources */,
+				BC0B121A222905DC007D17DD /* BaseViewController.m in Sources */,
+				BC0B121E222906B0007D17DD /* BaseUITabBarController.m in Sources */,
 				BC0B11FD2225A141007D17DD /* BaseStyle.m in Sources */,
+				BC0B1223222906F4007D17DD /* BaseUITabBar.m in Sources */,
 				BC0B120A2225C42E007D17DD /* SystemWifiManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

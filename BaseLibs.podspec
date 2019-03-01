@@ -1,4 +1,4 @@
-@version = "1.0.0"
+@version = "1.0.1"
 Pod::Spec.new do |s|
 s.name = "BaseLibs"
 s.version = @version
@@ -9,7 +9,26 @@ s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.author = { "brookzhou" => "brook_zhou@foxmail.com" }
 s.ios.deployment_target = '8.0'
 s.source = { :git => "https://github.com/brookzhou/BaseLibs.git", :tag => "v#{s.version}" }
-s.source_files = "BaseLibs/BaseLibs/**/*.{h,m}"
+s.source_files = "BaseLibs/BaseLibs/*.{h,m}"
 s.requires_arc = true
 s.framework = "UIKit"
+end
+s.subspec 'UIStyle' do |ss|
+    ss.source_files = "BaseLibs/BaseLibs/UIStyle/*.{h,m}"
+    ss.ios.frameworks = 'UIKit'
+end
+s.subspec 'Macro' do |ss|
+    ss.source_files = "BaseLibs/BaseLibs/Macro/*.{h,m}"
+end
+s.subspec 'System' do |ss|
+    ss.source_files = "BaseLibs/BaseLibs/System/*.{h,m}"
+    ss.ios.frameworks = 'Foundation',"SystemConfiguration"
+end
+s.subspec 'ViewControllers' do |ss|
+    ss.source_files = "BaseLibs/BaseLibs/ViewControllers/*.{h,m}"
+    ss.ios.frameworks = "UIKit"
+end
+s.subspec 'Views' do |ss|
+    ss.source_files = "BaseLibs/BaseLibs/Views/*.{h,m}"
+    ss.ios.frameworks = "UIKit"
 end
