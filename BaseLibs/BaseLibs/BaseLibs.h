@@ -24,6 +24,9 @@ FOUNDATION_EXPORT const unsigned char BaseLibsVersionString[];
 #import "LanguageConfigs.h"
 #import "DocumentDirectoryManager.h"
 #import "SystemWifiManager.h"
+#import "BaseUITabBar.h"
+#import "BaseViewController.h"
+#import "BaseUITabBarController.h"
 
 
 

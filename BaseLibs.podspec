@@ -12,23 +12,25 @@ s.source = { :git => "https://github.com/brookzhou/BaseLibs.git", :tag => "v#{s.
 s.source_files = "BaseLibs/BaseLibs/*.{h,m}"
 s.requires_arc = true
 s.framework = "UIKit"
-end
+
+EOS
+
 s.subspec 'UIStyle' do |ss|
     ss.source_files = "BaseLibs/BaseLibs/UIStyle/*.{h,m}"
-    ss.ios.frameworks = 'UIKit'
+    ss.frameworks = 'UIKit'
 end
 s.subspec 'Macro' do |ss|
     ss.source_files = "BaseLibs/BaseLibs/Macro/*.{h,m}"
 end
 s.subspec 'System' do |ss|
     ss.source_files = "BaseLibs/BaseLibs/System/*.{h,m}"
-    ss.ios.frameworks = 'Foundation',"SystemConfiguration"
+    ss.frameworks = 'Foundation',"SystemConfiguration"
 end
 s.subspec 'ViewControllers' do |ss|
     ss.source_files = "BaseLibs/BaseLibs/ViewControllers/*.{h,m}"
-    ss.ios.frameworks = "UIKit"
+    ss.frameworks = "UIKit"
 end
 s.subspec 'Views' do |ss|
     ss.source_files = "BaseLibs/BaseLibs/Views/*.{h,m}"
-    ss.ios.frameworks = "UIKit"
+    ss.frameworks = "UIKit"
 end
