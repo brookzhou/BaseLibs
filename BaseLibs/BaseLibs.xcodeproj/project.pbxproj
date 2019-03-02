@@ -26,6 +26,8 @@
 		BC0B121E222906B0007D17DD /* BaseUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B121C222906B0007D17DD /* BaseUITabBarController.m */; };
 		BC0B1222222906F4007D17DD /* BaseUITabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B1220222906F4007D17DD /* BaseUITabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC0B1223222906F4007D17DD /* BaseUITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B1221222906F4007D17DD /* BaseUITabBar.m */; };
+		BC0B1248222A4773007D17DD /* UILabel+LeftRightAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B1246222A4773007D17DD /* UILabel+LeftRightAlignment.h */; };
+		BC0B1249222A4773007D17DD /* UILabel+LeftRightAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B1247222A4773007D17DD /* UILabel+LeftRightAlignment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		BC0B121C222906B0007D17DD /* BaseUITabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseUITabBarController.m; sourceTree = "<group>"; };
 		BC0B1220222906F4007D17DD /* BaseUITabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseUITabBar.h; sourceTree = "<group>"; };
 		BC0B1221222906F4007D17DD /* BaseUITabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseUITabBar.m; sourceTree = "<group>"; };
+		BC0B1246222A4773007D17DD /* UILabel+LeftRightAlignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+LeftRightAlignment.h"; sourceTree = "<group>"; };
+		BC0B1247222A4773007D17DD /* UILabel+LeftRightAlignment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LeftRightAlignment.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 			children = (
 				BC0B1220222906F4007D17DD /* BaseUITabBar.h */,
 				BC0B1221222906F4007D17DD /* BaseUITabBar.m */,
+				BC0B1246222A4773007D17DD /* UILabel+LeftRightAlignment.h */,
+				BC0B1247222A4773007D17DD /* UILabel+LeftRightAlignment.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +162,7 @@
 				BC0B11EC222590F7007D17DD /* BaseLibs.h in Headers */,
 				BC0B11FE2225ABAA007D17DD /* BaseMacro.h in Headers */,
 				BC0B11FF2225ABAA007D17DD /* LanguageConfigs.h in Headers */,
+				BC0B1248222A4773007D17DD /* UILabel+LeftRightAlignment.h in Headers */,
 				BC0B12002225ABAA007D17DD /* ColorConfigs.h in Headers */,
 				BC0B12012225ABAA007D17DD /* DeviceConfigs.h in Headers */,
 				BC0B12022225ABAA007D17DD /* SystemConfigs.h in Headers */,
@@ -240,6 +247,7 @@
 				BC0B121A222905DC007D17DD /* BaseViewController.m in Sources */,
 				BC0B121E222906B0007D17DD /* BaseUITabBarController.m in Sources */,
 				BC0B11FD2225A141007D17DD /* BaseStyle.m in Sources */,
+				BC0B1249222A4773007D17DD /* UILabel+LeftRightAlignment.m in Sources */,
 				BC0B1223222906F4007D17DD /* BaseUITabBar.m in Sources */,
 				BC0B120A2225C42E007D17DD /* SystemWifiManager.m in Sources */,
 			);
