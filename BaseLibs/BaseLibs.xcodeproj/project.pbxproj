@@ -26,7 +26,7 @@
 		BC0B121E222906B0007D17DD /* BaseUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B121C222906B0007D17DD /* BaseUITabBarController.m */; };
 		BC0B1222222906F4007D17DD /* BaseUITabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B1220222906F4007D17DD /* BaseUITabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC0B1223222906F4007D17DD /* BaseUITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B1221222906F4007D17DD /* BaseUITabBar.m */; };
-		BC0B1248222A4773007D17DD /* UILabel+LeftRightAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B1246222A4773007D17DD /* UILabel+LeftRightAlignment.h */; };
+		BC0B1248222A4773007D17DD /* UILabel+LeftRightAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B1246222A4773007D17DD /* UILabel+LeftRightAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC0B1249222A4773007D17DD /* UILabel+LeftRightAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B1247222A4773007D17DD /* UILabel+LeftRightAlignment.m */; };
 /* End PBXBuildFile section */
 
@@ -162,7 +162,6 @@
 				BC0B11EC222590F7007D17DD /* BaseLibs.h in Headers */,
 				BC0B11FE2225ABAA007D17DD /* BaseMacro.h in Headers */,
 				BC0B11FF2225ABAA007D17DD /* LanguageConfigs.h in Headers */,
-				BC0B1248222A4773007D17DD /* UILabel+LeftRightAlignment.h in Headers */,
 				BC0B12002225ABAA007D17DD /* ColorConfigs.h in Headers */,
 				BC0B12012225ABAA007D17DD /* DeviceConfigs.h in Headers */,
 				BC0B12022225ABAA007D17DD /* SystemConfigs.h in Headers */,
@@ -172,6 +171,7 @@
 				BC0B1219222905DC007D17DD /* BaseViewController.h in Headers */,
 				BC0B120B2225C42E007D17DD /* DocumentDirectoryManager.h in Headers */,
 				BC0B12032225ABAA007D17DD /* DateConfigs.h in Headers */,
+				BC0B1248222A4773007D17DD /* UILabel+LeftRightAlignment.h in Headers */,
 				BC0B11FC2225A141007D17DD /* BaseStyle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

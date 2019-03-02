@@ -27,6 +27,7 @@ FOUNDATION_EXPORT const unsigned char BaseLibsVersionString[];
 #import "BaseUITabBar.h"
 #import "BaseViewController.h"
 #import "BaseUITabBarController.h"
+#import "UILabel+LeftRightAlignment.h"
 
 
 
