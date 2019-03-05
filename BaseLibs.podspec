@@ -1,4 +1,4 @@
-@version = "1.0.4"
+@version = "1.0.5"
 Pod::Spec.new do |s|
 s.name = "BaseLibs"
 s.version = @version
@@ -30,6 +30,9 @@ s.framework = "UIKit"
     end
     s.subspec 'Views' do |ss|
         ss.source_files = "BaseLibs/BaseLibs/Views/*.{h,m}"
+        ss.subspec 'UITextFields' do |sss|
+            ss.source_files = "BaseLibs/BaseLibs/Views/UITextFields/*.{h,m}"
+        end
     end
     
 end

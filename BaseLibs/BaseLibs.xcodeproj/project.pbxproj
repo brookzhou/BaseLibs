@@ -28,6 +28,18 @@
 		BC0B1223222906F4007D17DD /* BaseUITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B1221222906F4007D17DD /* BaseUITabBar.m */; };
 		BC0B1248222A4773007D17DD /* UILabel+LeftRightAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B1246222A4773007D17DD /* UILabel+LeftRightAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC0B1249222A4773007D17DD /* UILabel+LeftRightAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B1247222A4773007D17DD /* UILabel+LeftRightAlignment.m */; };
+		BCDAD690222ED59700E300EE /* BaseUITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDAD684222ED59700E300EE /* BaseUITextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDAD691222ED59700E300EE /* BaseUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDAD685222ED59700E300EE /* BaseUITextField.m */; };
+		BCDAD692222ED59700E300EE /* CheckCodeTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDAD686222ED59700E300EE /* CheckCodeTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDAD693222ED59700E300EE /* CheckCodeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDAD687222ED59700E300EE /* CheckCodeTextField.m */; };
+		BCDAD694222ED59700E300EE /* NickNameTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDAD688222ED59700E300EE /* NickNameTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDAD695222ED59700E300EE /* NickNameTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDAD689222ED59700E300EE /* NickNameTextField.m */; };
+		BCDAD696222ED59700E300EE /* PasswordTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDAD68A222ED59700E300EE /* PasswordTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDAD697222ED59700E300EE /* PasswordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDAD68B222ED59700E300EE /* PasswordTextField.m */; };
+		BCDAD698222ED59700E300EE /* PhoneTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDAD68C222ED59700E300EE /* PhoneTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDAD699222ED59700E300EE /* PhoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDAD68D222ED59700E300EE /* PhoneTextField.m */; };
+		BCDAD69A222ED59700E300EE /* UITextField+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDAD68E222ED59700E300EE /* UITextField+Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDAD69B222ED59700E300EE /* UITextField+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDAD68F222ED59700E300EE /* UITextField+Base.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +66,18 @@
 		BC0B1221222906F4007D17DD /* BaseUITabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseUITabBar.m; sourceTree = "<group>"; };
 		BC0B1246222A4773007D17DD /* UILabel+LeftRightAlignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+LeftRightAlignment.h"; sourceTree = "<group>"; };
 		BC0B1247222A4773007D17DD /* UILabel+LeftRightAlignment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LeftRightAlignment.m"; sourceTree = "<group>"; };
+		BCDAD684222ED59700E300EE /* BaseUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUITextField.h; sourceTree = "<group>"; };
+		BCDAD685222ED59700E300EE /* BaseUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUITextField.m; sourceTree = "<group>"; };
+		BCDAD686222ED59700E300EE /* CheckCodeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckCodeTextField.h; sourceTree = "<group>"; };
+		BCDAD687222ED59700E300EE /* CheckCodeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckCodeTextField.m; sourceTree = "<group>"; };
+		BCDAD688222ED59700E300EE /* NickNameTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NickNameTextField.h; sourceTree = "<group>"; };
+		BCDAD689222ED59700E300EE /* NickNameTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NickNameTextField.m; sourceTree = "<group>"; };
+		BCDAD68A222ED59700E300EE /* PasswordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordTextField.h; sourceTree = "<group>"; };
+		BCDAD68B222ED59700E300EE /* PasswordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordTextField.m; sourceTree = "<group>"; };
+		BCDAD68C222ED59700E300EE /* PhoneTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneTextField.h; sourceTree = "<group>"; };
+		BCDAD68D222ED59700E300EE /* PhoneTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneTextField.m; sourceTree = "<group>"; };
+		BCDAD68E222ED59700E300EE /* UITextField+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Base.h"; sourceTree = "<group>"; };
+		BCDAD68F222ED59700E300EE /* UITextField+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Base.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,12 +168,32 @@
 		BC0B121F222906CE007D17DD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BCDAD683222ED59700E300EE /* UITextFields */,
 				BC0B1220222906F4007D17DD /* BaseUITabBar.h */,
 				BC0B1221222906F4007D17DD /* BaseUITabBar.m */,
 				BC0B1246222A4773007D17DD /* UILabel+LeftRightAlignment.h */,
 				BC0B1247222A4773007D17DD /* UILabel+LeftRightAlignment.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BCDAD683222ED59700E300EE /* UITextFields */ = {
+			isa = PBXGroup;
+			children = (
+				BCDAD684222ED59700E300EE /* BaseUITextField.h */,
+				BCDAD685222ED59700E300EE /* BaseUITextField.m */,
+				BCDAD686222ED59700E300EE /* CheckCodeTextField.h */,
+				BCDAD687222ED59700E300EE /* CheckCodeTextField.m */,
+				BCDAD688222ED59700E300EE /* NickNameTextField.h */,
+				BCDAD689222ED59700E300EE /* NickNameTextField.m */,
+				BCDAD68A222ED59700E300EE /* PasswordTextField.h */,
+				BCDAD68B222ED59700E300EE /* PasswordTextField.m */,
+				BCDAD68C222ED59700E300EE /* PhoneTextField.h */,
+				BCDAD68D222ED59700E300EE /* PhoneTextField.m */,
+				BCDAD68E222ED59700E300EE /* UITextField+Base.h */,
+				BCDAD68F222ED59700E300EE /* UITextField+Base.m */,
+			);
+			path = UITextFields;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +213,12 @@
 				BC0B1222222906F4007D17DD /* BaseUITabBar.h in Headers */,
 				BC0B121D222906B0007D17DD /* BaseUITabBarController.h in Headers */,
 				BC0B1219222905DC007D17DD /* BaseViewController.h in Headers */,
+				BCDAD694222ED59700E300EE /* NickNameTextField.h in Headers */,
+				BCDAD69A222ED59700E300EE /* UITextField+Base.h in Headers */,
+				BCDAD696222ED59700E300EE /* PasswordTextField.h in Headers */,
+				BCDAD690222ED59700E300EE /* BaseUITextField.h in Headers */,
+				BCDAD692222ED59700E300EE /* CheckCodeTextField.h in Headers */,
+				BCDAD698222ED59700E300EE /* PhoneTextField.h in Headers */,
 				BC0B120B2225C42E007D17DD /* DocumentDirectoryManager.h in Headers */,
 				BC0B12032225ABAA007D17DD /* DateConfigs.h in Headers */,
 				BC0B1248222A4773007D17DD /* UILabel+LeftRightAlignment.h in Headers */,
@@ -247,8 +297,14 @@
 				BC0B121A222905DC007D17DD /* BaseViewController.m in Sources */,
 				BC0B121E222906B0007D17DD /* BaseUITabBarController.m in Sources */,
 				BC0B11FD2225A141007D17DD /* BaseStyle.m in Sources */,
+				BCDAD697222ED59700E300EE /* PasswordTextField.m in Sources */,
 				BC0B1249222A4773007D17DD /* UILabel+LeftRightAlignment.m in Sources */,
+				BCDAD693222ED59700E300EE /* CheckCodeTextField.m in Sources */,
 				BC0B1223222906F4007D17DD /* BaseUITabBar.m in Sources */,
+				BCDAD695222ED59700E300EE /* NickNameTextField.m in Sources */,
+				BCDAD691222ED59700E300EE /* BaseUITextField.m in Sources */,
+				BCDAD699222ED59700E300EE /* PhoneTextField.m in Sources */,
+				BCDAD69B222ED59700E300EE /* UITextField+Base.m in Sources */,
 				BC0B120A2225C42E007D17DD /* SystemWifiManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

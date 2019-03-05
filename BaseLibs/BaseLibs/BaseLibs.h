@@ -29,5 +29,12 @@ FOUNDATION_EXPORT const unsigned char BaseLibsVersionString[];
 #import "BaseUITabBarController.h"
 #import "UILabel+LeftRightAlignment.h"
 
+#import "UITextField+Base.h"
+#import "BaseUITextField.h"
+#import "CheckCodeTextField.h"
+#import "NickNameTextField.h"
+#import "PasswordTextField.h"
+#import "PhoneTextField.h"
+
 
 
