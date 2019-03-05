@@ -30,8 +30,8 @@ s.framework = "UIKit"
     end
     s.subspec 'Views' do |ss|
         ss.source_files = "BaseLibs/BaseLibs/Views/*.{h,m}"
-        ss.subspec 'UITextFields' do |sss|
-            ss.source_files = "BaseLibs/BaseLibs/Views/UITextFields/*.{h,m}"
+        s.subspec 'UITextFields' do |sss|
+            sss.source_files = "BaseLibs/BaseLibs/Views/UITextFields/*.{h,m}"
         end
     end
     
