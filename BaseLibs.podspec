@@ -28,9 +28,13 @@ s.framework = "UIKit"
         ss.source_files = "BaseLibs/BaseLibs/ViewControllers/*.{h,m}"
 
     end
+    s.subspec 'BaseCATransition' do |ss|
+        ss.source_files = "BaseLibs/BaseLibs/BaseCATransition/*.{h,m}"
+
+    end
     s.subspec 'Views' do |ss|
         ss.source_files = "BaseLibs/BaseLibs/Views/*.{h,m}"
-        s.subspec 'UITextFields' do |sss|
+        ss.subspec 'UITextFields' do |sss|
             sss.source_files = "BaseLibs/BaseLibs/Views/UITextFields/*.{h,m}"
         end
     end

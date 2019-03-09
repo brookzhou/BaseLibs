@@ -36,5 +36,7 @@ FOUNDATION_EXPORT const unsigned char BaseLibsVersionString[];
 #import "PasswordTextField.h"
 #import "PhoneTextField.h"
 
+#import "BaseCATransition.h"
+
 
 

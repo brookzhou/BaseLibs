@@ -28,6 +28,8 @@
 		BC0B1223222906F4007D17DD /* BaseUITabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B1221222906F4007D17DD /* BaseUITabBar.m */; };
 		BC0B1248222A4773007D17DD /* UILabel+LeftRightAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = BC0B1246222A4773007D17DD /* UILabel+LeftRightAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC0B1249222A4773007D17DD /* UILabel+LeftRightAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B1247222A4773007D17DD /* UILabel+LeftRightAlignment.m */; };
+		BCBA16802233EA07005742F2 /* BaseCATransition.h in Headers */ = {isa = PBXBuildFile; fileRef = BCBA167E2233EA07005742F2 /* BaseCATransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCBA16812233EA07005742F2 /* BaseCATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBA167F2233EA07005742F2 /* BaseCATransition.m */; };
 		BCDAD690222ED59700E300EE /* BaseUITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDAD684222ED59700E300EE /* BaseUITextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCDAD691222ED59700E300EE /* BaseUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDAD685222ED59700E300EE /* BaseUITextField.m */; };
 		BCDAD692222ED59700E300EE /* CheckCodeTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDAD686222ED59700E300EE /* CheckCodeTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -66,6 +68,8 @@
 		BC0B1221222906F4007D17DD /* BaseUITabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseUITabBar.m; sourceTree = "<group>"; };
 		BC0B1246222A4773007D17DD /* UILabel+LeftRightAlignment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+LeftRightAlignment.h"; sourceTree = "<group>"; };
 		BC0B1247222A4773007D17DD /* UILabel+LeftRightAlignment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LeftRightAlignment.m"; sourceTree = "<group>"; };
+		BCBA167E2233EA07005742F2 /* BaseCATransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCATransition.h; sourceTree = "<group>"; };
+		BCBA167F2233EA07005742F2 /* BaseCATransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCATransition.m; sourceTree = "<group>"; };
 		BCDAD684222ED59700E300EE /* BaseUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUITextField.h; sourceTree = "<group>"; };
 		BCDAD685222ED59700E300EE /* BaseUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUITextField.m; sourceTree = "<group>"; };
 		BCDAD686222ED59700E300EE /* CheckCodeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckCodeTextField.h; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 		BC0B11E9222590F7007D17DD /* BaseLibs */ = {
 			isa = PBXGroup;
 			children = (
+				BCBA167D2233EA07005742F2 /* BaseCATransition */,
 				BC0B121F222906CE007D17DD /* Views */,
 				BC0B121622290591007D17DD /* ViewControllers */,
 				BC0B12042225C3D3007D17DD /* System */,
@@ -177,6 +182,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		BCBA167D2233EA07005742F2 /* BaseCATransition */ = {
+			isa = PBXGroup;
+			children = (
+				BCBA167E2233EA07005742F2 /* BaseCATransition.h */,
+				BCBA167F2233EA07005742F2 /* BaseCATransition.m */,
+			);
+			path = BaseCATransition;
+			sourceTree = "<group>";
+		};
 		BCDAD683222ED59700E300EE /* UITextFields */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +236,7 @@
 				BC0B120B2225C42E007D17DD /* DocumentDirectoryManager.h in Headers */,
 				BC0B12032225ABAA007D17DD /* DateConfigs.h in Headers */,
 				BC0B1248222A4773007D17DD /* UILabel+LeftRightAlignment.h in Headers */,
+				BCBA16802233EA07005742F2 /* BaseCATransition.h in Headers */,
 				BC0B11FC2225A141007D17DD /* BaseStyle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +319,7 @@
 				BCDAD695222ED59700E300EE /* NickNameTextField.m in Sources */,
 				BCDAD691222ED59700E300EE /* BaseUITextField.m in Sources */,
 				BCDAD699222ED59700E300EE /* PhoneTextField.m in Sources */,
+				BCBA16812233EA07005742F2 /* BaseCATransition.m in Sources */,
 				BCDAD69B222ED59700E300EE /* UITextField+Base.m in Sources */,
 				BC0B120A2225C42E007D17DD /* SystemWifiManager.m in Sources */,
 			);
