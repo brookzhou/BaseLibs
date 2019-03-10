@@ -1,4 +1,4 @@
-@version = "1.0.6"
+@version = "1.0.7"
 Pod::Spec.new do |s|
 s.name = "BaseLibs"
 s.version = @version
@@ -30,6 +30,10 @@ s.framework = "UIKit"
     end
     s.subspec 'BaseCATransition' do |ss|
         ss.source_files = "BaseLibs/BaseLibs/BaseCATransition/*.{h,m}"
+
+    end
+    s.subspec 'DatasConduct' do |ss|
+        ss.source_files = "BaseLibs/BaseLibs/DatasConduct/*.{h,m}"
 
     end
     s.subspec 'Views' do |ss|
